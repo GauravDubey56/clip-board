@@ -1,0 +1,47 @@
+.central-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 10% auto 0 auto; /* 10% from the top, auto for horizontal centering */
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  
+}
+
+input-bottom {
+  margin-bottom: 50px;
+}
+
+input-label {
+  margin-right: 10px; /* Add spacing to the right of the label */
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional backdrop */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+}
